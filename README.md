@@ -1,3 +1,4 @@
+{% tabs %}
 {% tab title="Advanced - Most Secure" %}
 {% hint style="warning" %}
 🔥**\[ Optional \] Pro Security Tip**: Run the **eth2deposit-cli tool** and generate your **mnemonic seed** for your validator keys on an **air-gapped offline machine booted from usb**.
@@ -18,24 +19,38 @@ You need:
 
 ### Part 1 - Download Tails OS
 
-Download the official image from the [Tails website](https://tails.boum.org/install/index.en.html). 
+Download the official image from the [Tails website](https://tails.boum.org/install/index.en.html). Might take a while, go grab a coffee.
 
 Make sure you follow the guide on the Tails website to verify your download of Tails.
 
 ### Part 2 - Download and install the software to transfer your Tails image on your USB stick
 
 For Windows:
+- (Etcher)[https://tails.boum.org/etcher/Etcher-Portable.exe]
 - (Win32 Disk Imager)[https://win32diskimager.org/#download]
-- (Etcher)[https://tails.boum.org/etcher/Etcher-Portable.exe]  
 - (Rufus)[https://rufus.ie/en_US/]
 
 For Mac download (Etcher)[https://tails.boum.org/etcher/Etcher.dmg]
 
 ### Part 3 - Making your bootable USB stick
 
+Run the above software. This is an example how it looks like on Mac OS with etcher. But other software should be similar.
+
+![](../../.gitbook/assets/etcher_in_mac_png)
+
+Select the Tails OS image that you downloaded as the image. Then select the USB stick (the larger one). 
+
+Then flash the image to the larger USB stick.
+
+### Part 4 - Download and verify the eth2-deposit-cli
+
+You can refer to the other tab on this guide on how to download and verify the eth2-deposit-cli. 
+
+Copy the file to the other USB stick.
+
+### Part 5 - Reboot your computer and into Tails OS
 
 
-{% embed url="https://www.youtube.com/watch?v=C97\_6MrufCE" %}
 
 You can copy via USB key the pre-built eth2deposit-cli binaries from an online machine to an air-gapped offline machine booted from usb. Make sure to disconnect the ethernet cable and/or WIFI.
 {% endtab %}
