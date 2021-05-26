@@ -54,7 +54,7 @@ After you have done all the above, you can reboot. If you are connected by a LAN
 
 Plug in the USB stick that has your Tails OS.
 
-On Mac, Press and hold the Option key immediately upon hearing the startup chime. Release the key after Startup Manager appears. 
+On Mac, press and hold the Option key immediately upon hearing the startup chime. Release the key after Startup Manager appears. 
 
 On Windows, it depends on your computer manufacturer. Usually it is by pressing F1 or F12. If it doesn't work, try googling "Enter boot options menu on [Insert your PC brand]"
 
@@ -70,7 +70,7 @@ You can boot with all the default settings.
 
 Plug in your other USB stick with the `eth2-deposit-cli` file.
 
-You can then open your command line into the directory containing the file. Then you can continue the guide from the other tab.
+You can then open your command line and navigate into the directory containing the file. Then you can continue the guide from the other tab.
 
 Make a new mnemonic.
 
@@ -78,14 +78,14 @@ Make a new mnemonic.
 ./deposit.sh new-mnemonic --chain mainnet
 ```
 
-If you run this command directly from your other USB stick, the validator keys should stay on it. If it hasn't, copy the directory over to your non-Tails USB stick.
+If you ran this command directly from your non-Tails USB stick, the validator keys should stay on it. If it hasn't, copy the directory over to your non-Tails USB stick.
 
 {% hint style="warning" %}
 🔥**Make sure you have saved your validator keys directory in your other USB stick (non Tails OS) before you shutdown Tails. Tails will delete everything saved on it after you shutdown.**.
 {% endhint %}
 
 {% hint style="success" %}
-🎉Congrats on learning how to use Tails OS to make an airgapped system. As a bonus, you can reboot into Tails OS again and connect to internet to surf the dark web or clearnet safely!
+🎉Congrats on learning how to use Tails OS to make an airgapped system. As a bonus, you can reboot into Tails OS again and connect to internet to surf the dark web or clear net safely!
 {% endhint %}
 
 {% endtab %}
